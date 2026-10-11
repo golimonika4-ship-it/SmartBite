@@ -227,3 +227,5 @@ When publishing or submitting your project, include screenshots in an `assets/` 
 
 ## 📄 License
 This project is developed for educational and campus canteen management demonstration purposes under the MIT License.
+#   S m a r t B i t e  
+ 
