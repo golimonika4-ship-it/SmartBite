@@ -1,0 +1,67 @@
+# ===================================================================
+# SmartBite Backend - Git Ignore Configuration
+# ===================================================================
+
+# 1. Maven build outputs
+target/
+**/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# 2. Local Environment and Secrets
+.env
+.env.*
+!.env.example
+*.env
+**/.env
+**/.env.*
+!**/.env.example
+*.local
+application-local.properties
+**/application-local.properties
+application-secret.properties
+**/application-secret.properties
+*.local.properties
+
+# Private keys, certificates, tokens, and credentials
+*.pem
+*.key
+*.keystore
+*.jks
+*.p12
+*.pfx
+*credentials*.json
+*secret*.json
+*token*.json
+
+# 3. Logs
+logs/
+**/logs/
+*.log
+
+# 4. STS & Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# 5. IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# 6. NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
